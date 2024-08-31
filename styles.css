@@ -241,3 +241,38 @@ footer .social-icons {
         padding: 20px 10px;
     }
 }
+
+/* Fuente Lora desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+/* Estilo para el cuerpo del documento */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para la sección 'Sobre Nosotros' */
+#about {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el encabezado de la sección */
+#about h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el párrafo de la sección */
+#about p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
