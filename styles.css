@@ -262,7 +262,7 @@ body {
 }
 
 /* Estilo para el encabezado de la sección */
-#about h2 {
+#about h2, #services h2, h3{
     font-size: 2.5em;
     font-weight: 700;
     color: #222;
@@ -270,7 +270,7 @@ body {
 }
 
 /* Estilo para el párrafo de la sección */
-#about p {
+#about p, #services p{
     font-size: 1.2em;
     color: #555;
     margin-bottom: 20px;
