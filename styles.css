@@ -275,7 +275,7 @@ body {
 }
 
 /* Estilo para el párrafo de la sección */
-#about p {
+#about p,#services {
     font-size: 1.15em;
     color: #555;
     line-height: 1.8;
