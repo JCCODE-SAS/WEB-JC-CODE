@@ -266,8 +266,13 @@ body {
 }
 
 /* Estilo para el encabezado de la sección */
+<<<<<<< HEAD
 #about h2 {
     font-size: 2.2em;
+=======
+#about h2, #services h2{
+    font-size: 2.5em;
+>>>>>>> 5535a3012d283259c3f0102dce1742b6a59c9c1d
     font-weight: 700;
     color: #2c3e50;
     margin-bottom: 20px;
@@ -276,8 +281,13 @@ body {
 }
 
 /* Estilo para el párrafo de la sección */
+<<<<<<< HEAD
 #about p {
     font-size: 1.15em;
+=======
+#about p, #services p,  #service p {
+    font-size: 1.2em;
+>>>>>>> 5535a3012d283259c3f0102dce1742b6a59c9c1d
     color: #555;
     line-height: 1.8;
     text-align: justify;
