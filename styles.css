@@ -245,34 +245,65 @@ footer .social-icons {
 /* Fuente Lora desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
-/* Estilo para el cuerpo del documento */
+/* Estilo global para el cuerpo del documento */
 body {
     font-family: 'Lora', serif;
-    background-color: #f9f9f9;
+    background-color: #f7f7f7;
     color: #333;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.75;
 }
 
 /* Estilo para la sección 'Sobre Nosotros' */
 #about {
-    padding: 40px 20px;
-    background-color: #f4f4f4;
+    padding: 50px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 30px auto;
 }
 
 /* Estilo para el encabezado de la sección */
+<<<<<<< HEAD
+#about h2 {
+    font-size: 2.2em;
+=======
 #about h2, #services h2{
     font-size: 2.5em;
+>>>>>>> 5535a3012d283259c3f0102dce1742b6a59c9c1d
     font-weight: 700;
-    color: #222;
-    margin-bottom: 15px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Estilo para el párrafo de la sección */
+<<<<<<< HEAD
 #about p, #services p {
+=======
+<<<<<<< HEAD
+#about p {
+    font-size: 1.15em;
+=======
+#about p, #services p,  #service p {
+>>>>>>> 8e250aeacd3daf3beafb15c1e81ffdb051c1b043
     font-size: 1.2em;
+>>>>>>> 5535a3012d283259c3f0102dce1742b6a59c9c1d
     color: #555;
+    line-height: 1.8;
+    text-align: justify;
     margin-bottom: 20px;
-    max-width: 800px;
+}
+
+/* Estilo adicional para enlaces dentro del párrafo (si los hay) */
+#about p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#about p a:hover {
+    text-decoration: underline;
 }
